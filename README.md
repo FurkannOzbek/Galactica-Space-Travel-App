@@ -1,43 +1,22 @@
-# Galactica Space Travel App
+# Galactica Space Travel App 🌌
 
-## Introduction
+Galactica is a space travel application.
 
-Galactica is a space travel application built with Next.js and React. This project aims to teach students the fundamentals of React and Next.js by creating a dynamic and interactive space exploration app.
+## Technologies used: 
 
-## Prerequisites
+![React Badge](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black)
+![Javascript Badge](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+![HTML Badge](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+![CSS Badge](https://img.shields.io/badge/CSS-563d7c?&style=for-the-badge&logo=css3&logoColor=white)
+![NodeJS Badge](https://img.shields.io/badge/Node.js-5FA04E.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![NextJS Badge](https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white)
 
-- Node.js (version 18 or higher)
-- npm or yarn
+## Features ✨
 
-## Getting Started
-
-### Installation
-
-1. Fork the repository (Recommended)
-2. Clone the repository using Code > Clone
-
-Now you should have to project on your computer.
-
-3. cd into the homework folder
-4. run `npm install`
-
-### Running the Development Server
-
-`npm run dev`
-
-Open your browser and navigate to http://localhost:3000 to see the app in action.
-
-## HOMEWORKS:
-
-Throughout the weeks you will be adding new features to this existing application.
-For your tasks you should be searching for the following:
-
-- Tasks for week1: `TASK - React 1 week 1`
-- Tasks for week2: `TASK - React 1 week 2`
-- Tasks for week3: `TASK - React 1 week 3`
-
-You should be fixing ALL THE INSTANSCES of the current week.
-
-### How to find the tags?
-
-Use the global search function in your IDE. (`cmnd + shift + F` OR `Control + shift + F`)
+- 4 Page application : Home, About Us, Destinations, Nasa Collaboration
+- List of Values,Partners and Crew
+- Possible destinations with button to add them to the wishlist
+- Form for adding custom destination with name and thumbnail
+- Displaying wishlist
+- Remove items from wishlist
+- Fetch data from Nasa's API and displaying on the nasa collaboration page

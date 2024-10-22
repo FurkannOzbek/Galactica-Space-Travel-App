@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import styles from "./page.module.css";
 import { RoverPhoto } from "./RoverPhoto";
 
-const API_KEY = "rkMMJL9hkCQs9MxgxG16xDJylr5IRtbXKjixnGHy";
+const API_KEY = process.env.REACT_APP_NASA_API_KEY;
 
 const NASA_URLs = {
   astronomyPicOfTheDay: `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`,

@@ -4,9 +4,50 @@
   height: 100vh;
 }
 
-
 .nasaPicOfTheDayImg {
   width: auto;
   height: 400px;
+}
 
+.cardTitle {
+  margin: 2rem;
+  text-align: center;
+}
+.podImg {
+  display: block;
+  margin: auto;
+  height: 900px;
+  width: 1200;
+}
+
+.imgTitle {
+  margin: 2rem 0 0 7rem;
+}
+.imgDescription {
+  margin: 1rem 7rem 1rem 7rem;
+}
+
+.card {
+  margin: 2rem;
+}
+
+.roverCard {
+  padding: 4rem;
+}
+
+.roverGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 1rem;
+}
+
+.roverImg {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.roverHeader {
+  margin-bottom: 1rem;
+  text-align: center;
 }

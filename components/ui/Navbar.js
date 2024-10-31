@@ -32,28 +32,15 @@ export const Navbar = () => {
       <nav className={styles.navbar}>
         <div className={styles.navbarBG} />
         <ul className={styles.navbarList}>
-          {/* when we will use map function next week, that string indexes will be fixed, this is just temporary*/}
-          <NavItem
-            title={navbarItems[0].title}
-            link={navbarItems[0].link}
-            index="01"
-            isActive={navbarItems[0].link === currentPath}
-          />
-          <NavItem
-            title={navbarItems[1].title}
-            link={navbarItems[1].link}
-            index="02"
-            isActive={navbarItems[1].link === currentPath}
-          />
-          <NavItem
-            title={navbarItems[2].title}
-            link={navbarItems[2].link}
-            index="03"
-            isActive={navbarItems[2].link === currentPath}
-          />
-
-          {/* TASK - React 1 week 3 */}
-          {/* replace repeating content by using navbarItems.map(() => <NavLink />) */}
+          {navbarItems.map((navbarItem, index) => (
+            <NavItem
+              key={index}
+              title={navbarItem.title}
+              link={navbarItem.link}
+              index={`0${index + 1}`}
+              isActive={navbarItem.link === currentPath}
+            />
+          ))}
         </ul>
       </nav>
     </header>
